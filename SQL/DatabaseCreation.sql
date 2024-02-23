@@ -102,3 +102,10 @@ CREATE TABLE [dbo].[ForumPost](
 );
 GO
 
+CREATE TABLE [dbo].[NewsletterSubscribers](
+    [SubscriberID] INT NOT NULL IDENTITY PRIMARY KEY,
+    [Email] NVARCHAR(255) NOT NULL,
+    [SubscriptionDate] DATETIME NOT NULL DEFAULT GETDATE(),
+    CONSTRAINT [UQ_Email] UNIQUE ([Email]) -- Ensures each email address is unique
+);
+GO
