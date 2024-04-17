@@ -1,8 +1,8 @@
 MIST-353 Assignment 3: Prototype Development and Research for Web Application
  =============================================================================
  
- ![Nice Pic](https://courses.msqfon.com/wp-content/uploads/2021/03/program-bachelor-of-science-in-computer-science-1920x1080-1.jpg)
-This is a group repository that will contain the GeoSnow app
+ 
+### This repository contains all of the SQL files needed in order to create GeoSnowDatabase
 
 **Compiling of Ideas**
 
